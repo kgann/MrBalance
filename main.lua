@@ -5,10 +5,10 @@
 -----------------------------------------------------------------------------------------
 
 -- hide the status bar
-display.setStatusBar( display.HiddenStatusBar )
+display.setStatusBar(display.HiddenStatusBar)
 
 -- include the Corona "storyboard" module
-local storyboard = require "storyboard"
+local storyboard = require("storyboard")
 
 -- load menu screen
-storyboard.gotoScene( "menu" )
+storyboard.gotoScene("menu")
